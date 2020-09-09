@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.flyweight</OriginalElement>
+  <nodes>
+    <node x="0.0" y="393.0">com.flyweight.ConcreteChess</node>
+    <node x="70.60737179487182" y="588.0">com.flyweight.ChessFactory</node>
+    <node x="191.92147435897436" y="737.0">com.flyweight.Client</node>
+    <node x="120.89423076923077" y="241.0">com.flyweight.Chess</node>
+    <node x="149.79807692307696" y="0.0">com.flyweight.Coordinate</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.flyweight.ConcreteChess" target="com.flyweight.Chess">
+      <point x="48.25" y="-72.5" />
+      <point x="-72.375" y="51.0" />
+    </edge>
+    <edge source="com.flyweight.Chess" target="com.flyweight.Coordinate">
+      <point x="2.8421709430404007E-14" y="-51.0" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="com.flyweight.ConcreteChess" target="com.flyweight.Coordinate">
+      <point x="-48.25" y="-72.5" />
+      <point x="48.25" y="216.0" />
+      <point x="172.46474358974362" y="216.0" />
+      <point x="-45.33333333333334" y="95.5" />
+    </edge>
+    <edge source="com.flyweight.Client" target="com.flyweight.Coordinate">
+      <point x="52.666666666666686" y="-28.0" />
+      <point x="324.3942307692308" y="216.0" />
+      <point x="263.1314102564103" y="216.0" />
+      <point x="45.33333333333334" y="95.5" />
+    </edge>
+    <edge source="com.flyweight.Client" target="com.flyweight.Chess">
+      <point x="0.0" y="-28.0" />
+      <point x="270.92147435897436" y="712.0" />
+      <point x="291.75480769230774" y="712.0" />
+      <point x="291.75480769230774" y="368.0" />
+      <point x="289.76923076923083" y="368.0" />
+      <point x="72.37500000000003" y="51.0" />
+    </edge>
+    <edge source="com.flyweight.ChessFactory" target="com.flyweight.Chess">
+      <point x="0.0" y="-49.5" />
+      <point x="169.60737179487182" y="563.0" />
+      <point x="203.5" y="563.0" />
+      <point x="203.5" y="368.0" />
+      <point x="193.26923076923077" y="368.0" />
+      <point x="-24.125" y="51.0" />
+    </edge>
+    <edge source="com.flyweight.Client" target="com.flyweight.ChessFactory">
+      <point x="-52.66666666666666" y="-28.0" />
+      <point x="218.2548076923077" y="712.0" />
+      <point x="169.60737179487182" y="712.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.flyweight.ChessFactory" target="com.flyweight.ConcreteChess">
+      <point x="-66.0" y="-49.5" />
+      <point x="103.60737179487182" y="563.0" />
+      <point x="96.5" y="563.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8056580565805658" x="175.0" y="396.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

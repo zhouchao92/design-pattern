@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.decorator</OriginalElement>
+  <nodes>
+    <node x="139.0" y="106.0">com.decorator.SuperCar</node>
+    <node x="139.0" y="255.0">com.decorator.FlyCar</node>
+    <node x="0.0" y="379.0">com.decorator.Client</node>
+    <node x="208.5" y="0.0">com.decorator.ICar</node>
+    <node x="278.0" y="255.0">com.decorator.WaterCar</node>
+    <node x="278.0" y="127.5">com.decorator.Car</node>
+    <node x="0.0" y="255.0">com.decorator.AICar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.decorator.WaterCar" target="com.decorator.SuperCar">
+      <point x="0.0" y="-39.5" />
+      <point x="337.5" y="230.0" />
+      <point x="238.16666666666666" y="230.0" />
+      <point x="39.66666666666666" y="49.5" />
+    </edge>
+    <edge source="com.decorator.Car" target="com.decorator.ICar">
+      <point x="0.0" y="-28.0" />
+      <point x="337.5" y="81.0" />
+      <point x="297.75" y="81.0" />
+      <point x="29.75" y="28.0" />
+    </edge>
+    <edge source="com.decorator.SuperCar" target="com.decorator.ICar">
+      <point x="0.0" y="-49.5" />
+      <point x="198.5" y="81.0" />
+      <point x="238.25" y="81.0" />
+      <point x="-29.75" y="28.0" />
+    </edge>
+    <edge source="com.decorator.AICar" target="com.decorator.SuperCar">
+      <point x="0.0" y="-39.5" />
+      <point x="59.5" y="230.0" />
+      <point x="158.83333333333334" y="230.0" />
+      <point x="-39.66666666666666" y="49.5" />
+    </edge>
+    <edge source="com.decorator.FlyCar" target="com.decorator.SuperCar">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="176.0" y="180.5" />
+  <SelectedNodes>
+    <node>com.decorator.AICar</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

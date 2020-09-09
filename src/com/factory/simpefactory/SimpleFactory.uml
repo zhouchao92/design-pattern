@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.factory.simpefactory.ClientSimpleFactory</OriginalElement>
+  <nodes>
+    <node x="104.0" y="104.0">com.factory.simpefactory.ClientSimpleFactory</node>
+    <node x="174.5" y="0.0">com.factory.simpefactory.Car</node>
+    <node x="0.0" y="104.0">com.factory.simpefactory.Audi</node>
+    <node x="340.0" y="104.0">com.factory.simpefactory.Byd</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.factory.simpefactory.Byd" target="com.factory.simpefactory.Car">
+      <point x="0.0" y="-27.0" />
+      <point x="377.5" y="79.0" />
+      <point x="237.0" y="79.0" />
+      <point x="25.0" y="27.0" />
+    </edge>
+    <edge source="com.factory.simpefactory.Audi" target="com.factory.simpefactory.Car">
+      <point x="0.0" y="-27.0" />
+      <point x="42.0" y="79.0" />
+      <point x="187.0" y="79.0" />
+      <point x="-25.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="207.5" y="79.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

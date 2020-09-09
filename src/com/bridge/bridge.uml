@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.bridge</OriginalElement>
+  <nodes>
+    <node x="0.0" y="125.0">com.bridge.Lenovo</node>
+    <node x="193.2829931972789" y="344.0">com.bridge.Client</node>
+    <node x="395.83996598639453" y="240.0">com.bridge.Laptop2</node>
+    <node x="254.0899659863945" y="0.0">com.bridge.Brand</node>
+    <node x="297.8321428571428" y="124.0">com.bridge.Computer2</node>
+    <node x="195.8399659863945" y="240.0">com.bridge.Pad2</node>
+    <node x="120.99999999999997" y="125.0">com.bridge.Dell</node>
+    <node x="299.83996598639453" y="240.0">com.bridge.PC2</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.bridge.PC2" target="com.bridge.Brand">
+      <point x="-25.0" y="-27.0" />
+      <point x="312.33996598639453" y="200.0" />
+      <point x="287.3321428571428" y="200.0" />
+      <point x="287.3321428571428" y="104.0" />
+      <point x="300.08996598639453" y="104.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Pad2" target="com.bridge.Brand">
+      <point x="-28.0" y="-27.0" />
+      <point x="209.8399659863945" y="220.0" />
+      <point x="231.7908163265306" y="220.0" />
+      <point x="231.7908163265306" y="94.0" />
+      <point x="286.9471088435374" y="94.0" />
+      <point x="-13.14285714285711" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Client" target="com.bridge.Computer2">
+      <point x="20.19999999999999" y="-27.0" />
+      <point x="263.9829931972789" y="314.0" />
+      <point x="385.33996598639453" y="314.0" />
+      <point x="385.33996598639453" y="220.0" />
+      <point x="380.11785714285713" y="220.0" />
+      <point x="18.285714285714334" y="28.0" />
+    </edge>
+    <edge source="com.bridge.Dell" target="com.bridge.Brand">
+      <point x="0.0" y="-27.0" />
+      <point x="162.99999999999997" y="84.0" />
+      <point x="273.8042517006802" y="84.0" />
+      <point x="-26.285714285714278" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Lenovo" target="com.bridge.Brand">
+      <point x="0.0" y="-27.0" />
+      <point x="50.5" y="74.0" />
+      <point x="260.6613945578231" y="74.0" />
+      <point x="-39.428571428571445" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Laptop2" target="com.bridge.Brand">
+      <point x="36.666666666666686" y="-27.0" />
+      <point x="487.50663265306116" y="220.0" />
+      <point x="461.6654761904761" y="220.0" />
+      <point x="461.6654761904761" y="84.0" />
+      <point x="339.518537414966" y="84.0" />
+      <point x="39.428571428571445" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Client" target="com.bridge.Pad2">
+      <point x="0.0" y="-27.0" />
+      <point x="243.7829931972789" y="324.0" />
+      <point x="237.8399659863945" y="324.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.bridge.PC2" target="com.bridge.Computer2">
+      <point x="0.0" y="-27.0" />
+      <point x="337.33996598639453" y="220.0" />
+      <point x="343.54642857142846" y="220.0" />
+      <point x="-18.285714285714278" y="28.0" />
+    </edge>
+    <edge source="com.bridge.Laptop2" target="com.bridge.Computer2">
+      <point x="-36.66666666666666" y="-27.0" />
+      <point x="414.17329931972785" y="220.0" />
+      <point x="398.40357142857135" y="220.0" />
+      <point x="36.57142857142861" y="28.0" />
+    </edge>
+    <edge source="com.bridge.Pad2" target="com.bridge.Computer2">
+      <point x="28.0" y="-27.0" />
+      <point x="265.83996598639453" y="220.0" />
+      <point x="325.26071428571424" y="220.0" />
+      <point x="-36.571428571428555" y="28.0" />
+    </edge>
+    <edge source="com.bridge.Client" target="com.bridge.Dell">
+      <point x="-20.200000000000017" y="-27.0" />
+      <point x="223.58299319727888" y="314.0" />
+      <point x="162.99999999999997" y="314.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Client" target="com.bridge.Lenovo">
+      <point x="-40.400000000000034" y="-27.0" />
+      <point x="203.38299319727886" y="324.0" />
+      <point x="50.49999999999997" y="324.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Client" target="com.bridge.Laptop2">
+      <point x="40.39999999999998" y="-27.0" />
+      <point x="284.18299319727885" y="324.0" />
+      <point x="450.83996598639453" y="324.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.bridge.Computer2" target="com.bridge.Brand">
+      <point x="32.0" y="-28.0" />
+      <point x="393.8321428571428" y="94.0" />
+      <point x="326.37568027210875" y="94.0" />
+      <point x="26.285714285714278" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="253.0" y="199.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

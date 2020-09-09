@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">com.adapter.Target</node>
+    <node x="52.22291666666666" y="127.5">com.adapter.Adapter</node>
+    <node x="221.22291666666666" y="106.0">com.adapter.Adapter2</node>
+    <node x="246.47291666666666" y="255.0">com.adapter.Client</node>
+    <node x="263.7166666666667" y="0.0">com.adapter.Adaptee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.adapter.Adapter" target="com.adapter.Target">
+      <point x="-37.25" y="-28.0" />
+      <point x="89.47291666666666" y="86.0" />
+      <point x="74.5" y="86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.adapter.Client" target="com.adapter.Adapter2">
+      <point x="-19.75" y="-39.5" />
+      <point x="305.72291666666666" y="235.0" />
+      <point x="296.72291666666666" y="235.0" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="com.adapter.Adapter2" target="com.adapter.Target">
+      <point x="-50.33333333333334" y="-49.5" />
+      <point x="246.38958333333332" y="76.0" />
+      <point x="124.16666666666669" y="76.0" />
+      <point x="49.666666666666686" y="28.0" />
+    </edge>
+    <edge source="com.adapter.Client" target="com.adapter.Target">
+      <point x="-59.25" y="-39.5" />
+      <point x="266.22291666666666" y="235.0" />
+      <point x="26.75" y="235.0" />
+      <point x="26.75" y="86.0" />
+      <point x="24.833333333333314" y="86.0" />
+      <point x="-49.666666666666686" y="28.0" />
+    </edge>
+    <edge source="com.adapter.Adapter2" target="com.adapter.Adaptee">
+      <point x="50.33333333333334" y="-49.5" />
+      <point x="347.05625" y="86.0" />
+      <point x="329.2166666666667" y="86.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.adapter.Client" target="com.adapter.Adaptee">
+      <point x="19.75" y="-39.5" />
+      <point x="345.22291666666666" y="225.0" />
+      <point x="382.72291666666666" y="225.0" />
+      <point x="382.72291666666666" y="86.0" />
+      <point x="355.4166666666667" y="86.0" />
+      <point x="26.200000000000003" y="28.0" />
+    </edge>
+    <edge source="com.adapter.Adapter" target="com.adapter.Adaptee">
+      <point x="37.25" y="-28.0" />
+      <point x="163.97291666666666" y="86.0" />
+      <point x="276.81666666666666" y="86.0" />
+      <point x="-52.4" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="287.5" y="164.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

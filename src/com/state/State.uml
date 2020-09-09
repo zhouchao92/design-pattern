@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.state.BookedState</OriginalElement>
+  <nodes>
+    <node x="185.0" y="127.5">com.state.CheckedState</node>
+    <node x="185.47916666666663" y="282.0">com.state.Client</node>
+    <node x="0.0" y="106.0">com.state.Context</node>
+    <node x="199.0" y="0.0">com.state.State</node>
+    <node x="359.0" y="127.5">com.state.FreeState</node>
+    <node x="507.0" y="127.5">com.state.BookedState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.state.Client" target="com.state.Context">
+      <point x="-19.75" y="-28.0" />
+      <point x="251.72916666666663" y="225.0" />
+      <point x="123.75" y="225.0" />
+      <point x="41.25" y="49.5" />
+    </edge>
+    <edge source="com.state.BookedState" target="com.state.State">
+      <point x="0.0" y="-28.0" />
+      <point x="579.5" y="76.0" />
+      <point x="312.40000000000003" y="76.0" />
+      <point x="50.400000000000034" y="28.0" />
+    </edge>
+    <edge source="com.state.Context" target="com.state.State">
+      <point x="41.25" y="-49.5" />
+      <point x="123.75" y="86.0" />
+      <point x="236.8" y="86.0" />
+      <point x="-25.19999999999999" y="28.0" />
+    </edge>
+    <edge source="com.state.Client" target="com.state.FreeState">
+      <point x="19.75" y="-28.0" />
+      <point x="291.22916666666663" y="225.0" />
+      <point x="423.0" y="225.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.state.Client" target="com.state.BookedState">
+      <point x="59.25" y="-28.0" />
+      <point x="330.72916666666663" y="235.0" />
+      <point x="579.5" y="235.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="com.state.FreeState" target="com.state.State">
+      <point x="0.0" y="-28.0" />
+      <point x="423.0" y="86.0" />
+      <point x="287.20000000000005" y="86.0" />
+      <point x="25.200000000000045" y="28.0" />
+    </edge>
+    <edge source="com.state.CheckedState" target="com.state.State">
+      <point x="0.0" y="-28.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="326.0" y="155.5" />
+  <SelectedNodes>
+    <node>com.state.Client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

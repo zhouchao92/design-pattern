@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.builder</OriginalElement>
+  <nodes>
+    <node x="149.66020114942538" y="164.0">com.builder.AirShipBuilder</node>
+    <node x="36.16020114942535" y="288.0">com.builder.MyAirShipBuilder</node>
+    <node x="205.83333333333334" y="422.0">com.builder.MyAirShipDirector</node>
+    <node x="367.5373563218391" y="526.0">com.builder.Client</node>
+    <node x="217.3189655172414" y="0.0">com.builder.OrbitalModule</node>
+    <node x="382.1185344827587" y="288.0">com.builder.AirShipDirector</node>
+    <node x="379.4439655172414" y="164.0">com.builder.AirShip</node>
+    <node x="458.7356321839081" y="0.0">com.builder.Engine</node>
+    <node x="28.13362068965523" y="0.0">com.builder.EscapeTower</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.builder.MyAirShipBuilder" target="com.builder.Engine">
+      <point x="54.0" y="-27.0" />
+      <point x="184.66020114942535" y="258.0" />
+      <point x="519.0689655172414" y="258.0" />
+      <point x="519.0689655172414" y="144.0" />
+      <point x="517.6522988505747" y="144.0" />
+      <point x="8.416666666666629" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShip" target="com.builder.EscapeTower">
+      <point x="-45.833333333333314" y="-27.0" />
+      <point x="388.6106321839081" y="104.0" />
+      <point x="136.88362068965526" y="104.0" />
+      <point x="36.25000000000003" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipDirector" target="com.builder.OrbitalModule">
+      <point x="-12.375" y="-27.0" />
+      <point x="292.45833333333337" y="362.0" />
+      <point x="342.9935344827587" y="362.0" />
+      <point x="342.9935344827587" y="114.0" />
+      <point x="312.40229885057477" y="114.0" />
+      <point x="13.583333333333371" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShipBuilder" target="com.builder.EscapeTower">
+      <point x="-57.33333333333337" y="-27.0" />
+      <point x="178.326867816092" y="114.0" />
+      <point x="112.71695402298857" y="114.0" />
+      <point x="12.083333333333343" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShipDirector" target="com.builder.AirShip">
+      <point x="0.0" y="-27.0" />
+      <point x="472.6185344827587" y="248.0" />
+      <point x="448.1939655172414" y="248.0" />
+      <point x="13.75" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipBuilder" target="com.builder.AirShipBuilder">
+      <point x="27.0" y="-27.0" />
+      <point x="157.66020114942535" y="268.0" />
+      <point x="178.32686781609206" y="268.0" />
+      <point x="-57.333333333333314" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShip" target="com.builder.Engine">
+      <point x="27.5" y="-27.0" />
+      <point x="461.9439655172414" y="134.0" />
+      <point x="483.9856321839081" y="134.0" />
+      <point x="-25.25" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShipBuilder" target="com.builder.Engine">
+      <point x="57.33333333333337" y="-27.0" />
+      <point x="292.9935344827587" y="124.0" />
+      <point x="467.1522988505747" y="124.0" />
+      <point x="-42.08333333333337" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipDirector" target="com.builder.AirShipBuilder">
+      <point x="-61.875" y="-27.0" />
+      <point x="242.95833333333334" y="402.0" />
+      <point x="254.3915229885058" y="402.0" />
+      <point x="254.3915229885058" y="248.0" />
+      <point x="235.66020114942538" y="248.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShipBuilder" target="com.builder.OrbitalModule">
+      <point x="0.0" y="-27.0" />
+      <point x="235.66020114942538" y="144.0" />
+      <point x="285.2356321839081" y="144.0" />
+      <point x="-13.583333333333314" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipDirector" target="com.builder.EscapeTower">
+      <point x="-86.625" y="-27.0" />
+      <point x="218.20833333333334" y="392.0" />
+      <point x="0.0" y="392.0" />
+      <point x="0.0" y="144.0" />
+      <point x="40.2169540229886" y="144.0" />
+      <point x="-60.41666666666663" y="27.0" />
+    </edge>
+    <edge source="com.builder.Client" target="com.builder.MyAirShipDirector">
+      <point x="-12.625" y="-27.0" />
+      <point x="405.4123563218391" y="496.0" />
+      <point x="304.83333333333337" y="496.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.builder.AirShip" target="com.builder.OrbitalModule">
+      <point x="-9.166666666666686" y="-27.0" />
+      <point x="425.2772988505747" y="84.0" />
+      <point x="339.5689655172414" y="84.0" />
+      <point x="40.75" y="27.0" />
+    </edge>
+    <edge source="com.builder.Client" target="com.builder.MyAirShipBuilder">
+      <point x="-37.875" y="-27.0" />
+      <point x="380.1623563218391" y="506.0" />
+      <point x="105.00000000000003" y="506.0" />
+      <point x="105.00000000000003" y="402.0" />
+      <point x="130.66020114942535" y="402.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipBuilder" target="com.builder.OrbitalModule">
+      <point x="0.0" y="-27.0" />
+      <point x="130.66020114942535" y="268.0" />
+      <point x="110.73563218390808" y="268.0" />
+      <point x="110.73563218390808" y="134.0" />
+      <point x="258.0689655172414" y="134.0" />
+      <point x="-40.75" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipBuilder" target="com.builder.EscapeTower">
+      <point x="-81.0" y="-27.0" />
+      <point x="49.66020114942535" y="258.0" />
+      <point x="72.00000000000003" y="258.0" />
+      <point x="72.00000000000003" y="144.0" />
+      <point x="64.38362068965523" y="144.0" />
+      <point x="-36.25" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipDirector" target="com.builder.AirShip">
+      <point x="37.125" y="-27.0" />
+      <point x="341.95833333333337" y="382.0" />
+      <point x="371.6185344827587" y="382.0" />
+      <point x="371.6185344827587" y="248.0" />
+      <point x="420.6939655172414" y="248.0" />
+      <point x="-13.75" y="27.0" />
+    </edge>
+    <edge source="com.builder.Client" target="com.builder.AirShipDirector">
+      <point x="12.625" y="-27.0" />
+      <point x="430.6623563218391" y="496.0" />
+      <point x="517.8685344827587" y="496.0" />
+      <point x="45.25" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipDirector" target="com.builder.Engine">
+      <point x="86.625" y="-27.0" />
+      <point x="391.45833333333337" y="402.0" />
+      <point x="610.8915229885058" y="402.0" />
+      <point x="610.8915229885058" y="144.0" />
+      <point x="551.3189655172414" y="144.0" />
+      <point x="42.08333333333337" y="27.0" />
+    </edge>
+    <edge source="com.builder.MyAirShipDirector" target="com.builder.AirShipDirector">
+      <point x="61.875" y="-27.0" />
+      <point x="366.70833333333337" y="392.0" />
+      <point x="427.3685344827587" y="392.0" />
+      <point x="-45.25" y="27.0" />
+    </edge>
+    <edge source="com.builder.Client" target="com.builder.AirShip">
+      <point x="37.875" y="-27.0" />
+      <point x="455.9123563218391" y="506.0" />
+      <point x="573.6185344827586" y="506.0" />
+      <point x="573.6185344827586" y="238.0" />
+      <point x="475.6939655172414" y="238.0" />
+      <point x="41.249999999999986" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="305.5" y="290.5" />
+  <SelectedNodes>
+    <node>com.builder.Client</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
