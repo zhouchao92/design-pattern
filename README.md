@@ -541,5 +541,5 @@ JavaSE提供了java.util.Observable和java.util.Observer来实现观察者模式
 
 ### 思维导图
 
-<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:100%; height:100%;" src="https://www.processon.com/embed/5f57a53163768959e2dcb3bb"></iframe>
+<iframe id="embed_dom" name="embed_dom" frameborder="0" style="display:block;width:100%; height:600px;" src="https://www.processon.com/embed/5f57a53163768959e2dcb3bb"></iframe>
 
